@@ -1,0 +1,2 @@
+@model AppointmentViewModel
+@{ViewData["Title"]="Delete Appointment";}<h1>Delete Appointment</h1><p>Are you sure?</p><p>@Model.PatientName with @Model.DoctorName at @Model.AppointmentDate</p><form asp-action="Delete" method="post"><input type="hidden" name="patientId" value="@Model.PatientId"/><input type="hidden" name="doctorId" value="@Model.DoctorId"/><button class="btn btn-danger">Delete</button> <a asp-action="Index" class="btn btn-secondary">Cancel</a></form>

@@ -1,0 +1,2 @@
+@model AppointmentViewModel
+@{ViewData["Title"]="Appointment Details";}<h1>Appointment Details</h1><dl class="row"><dt class="col-sm-3">Patient</dt><dd class="col-sm-9">@Model.PatientName</dd><dt class="col-sm-3">Doctor</dt><dd class="col-sm-9">@Model.DoctorName</dd><dt class="col-sm-3">Date</dt><dd class="col-sm-9">@Model.AppointmentDate</dd></dl><a asp-action="Index" class="btn btn-secondary">Back</a>

@@ -1,0 +1,1 @@
+using Microsoft.AspNetCore.Mvc; namespace Health_Care_System.PL.Controllers; public class HomeController:Controller {public IActionResult Index()=>View(); public IActionResult Privacy()=>View(); public IActionResult Error()=>View();}

@@ -1,0 +1,2 @@
+@model DoctorViewModel
+@{ViewData["Title"]="Doctor Details";}<h1>Doctor Details</h1><dl class="row"><dt class="col-sm-3">Name</dt><dd class="col-sm-9">@Model.Name</dd><dt class="col-sm-3">Specialization</dt><dd class="col-sm-9">@Model.Specialization</dd></dl><a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a> <a asp-action="Index" class="btn btn-secondary">Back</a>

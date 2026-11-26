@@ -1,0 +1,16 @@
+C:\Users\basma\Downloads\Health-Care-System-MVC-DEPI-Structure\HealthCare.BLL\obj\Debug\net8.0\HealthCare.BLL.csproj.AssemblyReference.cache
+C:\Users\basma\Downloads\Health-Care-System-MVC-DEPI-Structure\HealthCare.BLL\obj\Debug\net8.0\HealthCare.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\basma\Downloads\Health-Care-System-MVC-DEPI-Structure\HealthCare.BLL\obj\Debug\net8.0\HealthCare.BLL.AssemblyInfoInputs.cache
+C:\Users\basma\Downloads\Health-Care-System-MVC-DEPI-Structure\HealthCare.BLL\obj\Debug\net8.0\HealthCare.BLL.AssemblyInfo.cs
+C:\Users\basma\Downloads\Health-Care-System-MVC-DEPI-Structure\HealthCare.BLL\obj\Debug\net8.0\HealthCare.BLL.csproj.CoreCompileInputs.cache
+C:\Users\basma\Downloads\Health-Care-System-MVC-DEPI-Structure\HealthCare.BLL\obj\Debug\net8.0\HealthCare.BLL.sourcelink.json
+C:\Users\basma\Downloads\Health-Care-System-MVC-DEPI-Structure\HealthCare.BLL\bin\Debug\net8.0\HealthCare.BLL.deps.json
+C:\Users\basma\Downloads\Health-Care-System-MVC-DEPI-Structure\HealthCare.BLL\bin\Debug\net8.0\HealthCare.BLL.dll
+C:\Users\basma\Downloads\Health-Care-System-MVC-DEPI-Structure\HealthCare.BLL\bin\Debug\net8.0\HealthCare.BLL.pdb
+C:\Users\basma\Downloads\Health-Care-System-MVC-DEPI-Structure\HealthCare.BLL\bin\Debug\net8.0\HealthCare.DAL.dll
+C:\Users\basma\Downloads\Health-Care-System-MVC-DEPI-Structure\HealthCare.BLL\bin\Debug\net8.0\HealthCare.DAL.pdb
+C:\Users\basma\Downloads\Health-Care-System-MVC-DEPI-Structure\HealthCare.BLL\obj\Debug\net8.0\HealthCa.2E915D2B.Up2Date
+C:\Users\basma\Downloads\Health-Care-System-MVC-DEPI-Structure\HealthCare.BLL\obj\Debug\net8.0\HealthCare.BLL.dll
+C:\Users\basma\Downloads\Health-Care-System-MVC-DEPI-Structure\HealthCare.BLL\obj\Debug\net8.0\refint\HealthCare.BLL.dll
+C:\Users\basma\Downloads\Health-Care-System-MVC-DEPI-Structure\HealthCare.BLL\obj\Debug\net8.0\HealthCare.BLL.pdb
+C:\Users\basma\Downloads\Health-Care-System-MVC-DEPI-Structure\HealthCare.BLL\obj\Debug\net8.0\ref\HealthCare.BLL.dll
