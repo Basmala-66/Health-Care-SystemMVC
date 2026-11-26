@@ -1,0 +1,43 @@
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: Developer
+      MSSQL_SA_PASSWORD: ${MSSQL_SA_PASSWORD:?Set MSSQL_SA_PASSWORD in .env}
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver-data:/var/opt/mssql
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - /opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P "$$MSSQL_SA_PASSWORD" -C -Q "SELECT 1" || exit 1
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      sqlserver:
+        condition: service_healthy
+    environment:
+      ASPNETCORE_HTTP_PORTS: 8080
+      ConnectionStrings__DefaultSqlConnection: "Server=sqlserver,1433;Database=HealthCareSystem;User Id=sa;Password=${MSSQL_SA_PASSWORD:?Set MSSQL_SA_PASSWORD in .env};TrustServerCertificate=True;"
+      ConnectionStrings__AuthenticationConnection: "Server=sqlserver,1433;Database=HealthCareSystem_Auth;User Id=sa;Password=${MSSQL_SA_PASSWORD:?Set MSSQL_SA_PASSWORD in .env};TrustServerCertificate=True;"
+    ports:
+      - "8080:8080"
+
+  tests:
+    profiles:
+      - test
+    build:
+      context: .
+      dockerfile: HealthCare.BLL.Tests/Dockerfile
+
+volumes:
+  sqlserver-data:

@@ -16,3 +16,4 @@ TestResults/
 .vs/
 **/bin/
 **/obj/
+.env
