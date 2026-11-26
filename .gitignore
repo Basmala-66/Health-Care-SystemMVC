@@ -12,3 +12,7 @@ TestResults/
 
 # NuGet
 *.nupkg
+
+.vs/
+**/bin/
+**/obj/
